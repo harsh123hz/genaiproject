@@ -1,2 +1,43 @@
+/* ── Reset & Base ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: 'DM Sans', 'Segoe UI', sans-serif; }
+
+:root {
+  --bg: #050711;
+  --bg-card: #0f111e;
+  --bg-elevated: #171a2e;
+  --bg-input: #1a1d33;
+  --border: #24284a;
+  --border-light: #2d325a;
+  --text-primary: #eef0ff;
+  --text-secondary: #9aa0c3;
+  --text-muted: #6b7094;
+  --accent: #6c5cff;
+  --accent-hover: #5a4ae6;
+  --accent-light: #ece9ff;
+  --accent-glow: rgba(108,92,255,0.25);
+  --success: #00d492;
+  --success-bg: rgba(0,212,146,0.1);
+  --warning: #ffb02e;
+  --radius: 16px;
+  --radius-sm: 10px;
+  --radius-lg: 20px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text-primary);
+  min-height: 100vh;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #2d325a; border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: #3a3f6a; }
+
+/* Utility */
+.mono { font-family: 'JetBrains Mono', monospace; }
