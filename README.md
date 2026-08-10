@@ -8,9 +8,7 @@
 
 A production-grade **Retrieval-Augmented Generation (RAG)** system that scrapes any career page, extracts structured job data via **Groq Llama 3.1 70B**, retrieves the most relevant portfolio links via **ChromaDB vector search**, and generates hyper-personalized cold emails — all in **~1.2 seconds**.
 
-Built to showcase **Data Science + GenAI + System Design** skills for Tredence and similar Data Scientist interviews.
 
-![TalentReach AI Preview](https://harsh123hz.github.io/genaiproject/)
 
 ---
 
