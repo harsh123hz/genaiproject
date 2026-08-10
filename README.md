@@ -2,7 +2,7 @@
 
 An AI-powered customer support chatbot built with **React + Vite** and the **Anthropic Claude API**. Handles common support queries like order tracking, returns, shipping, and account issues — with quick-reply buttons and full conversation memory.
 
-![Chatbot Preview](https://via.placeholder.com/600x400/0f6e56/ffffff?text=Customer+Support+Chatbot)
+![Chatbot Preview](https://harsh123hz.github.io/genaiproject/
 
 ---
 
@@ -63,7 +63,7 @@ VITE_ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxxxxx
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000](https://harsh123hz.github.io/genaiproject/) in your browser.
 
 ---
 
