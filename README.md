@@ -63,7 +63,7 @@ VITE_ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxxxxx
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000](https://harsh123hz.github.io/genaiproject/) in your browser.
+Open (https://harsh123hz.github.io/genaiproject/) in your browser.
 
 ---
 
