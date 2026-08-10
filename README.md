@@ -1,9 +1,5 @@
 # ⚡ TalentReach AI — RAG-Powered Cold Email Generator
-
-> **GenAI Portfolio Project for Data Scientist Role — Live & Deployable**
-> 
 > **🔗 Live Demo:** `https://harsh123hz.github.io/genaiproject/` 
-> 
 > **📌 GitHub Pages (Permanent):** `https://harsh123hz.github.io/genaiproject/` 
 
 A production-grade **Retrieval-Augmented Generation (RAG)** system that scrapes any career page, extracts structured job data via **Groq Llama 3.1 70B**, retrieves the most relevant portfolio links via **ChromaDB vector search**, and generates hyper-personalized cold emails — all in **~1.2 seconds**.
@@ -19,17 +15,6 @@ A production-grade **Retrieval-Augmented Generation (RAG)** system that scrapes 
 | **Prompt Engineering** | Forced JSON output, no-preamble constraints, persona injection (Mohan @ AtliQ) |
 | **Production Deployment** | React/Vite static frontend (works without backend) + Streamlit Python backend alternative |
 | **Data Handling** | Pandas portfolio CSV, text cleaning (HTML strip, URL removal, whitespace norm) |
-
-**Resume Bullet (copy-paste):**
-```
-TalentReach AI — RAG-Powered Cold Email Generator | React, Groq Llama 3.1, LangChain, ChromaDB, RAG
-• Built RAG pipeline that scrapes career pages, extracts structured jobs via LLM (JSON), and retrieves top-2 portfolio links via ChromaDB cosine similarity
-• Prompt-engineered Llama 3.1 70B for job extraction & personalized email generation; ~1.2s end-to-end latency
-• Vector store with 20+ tech-stack embeddings; semantic search for portfolio matching • Deployed live: https://3000-iwdhrcat4blxkvrvajjqo.e2b.app
-• Tech: Python, LangChain, Groq API, ChromaDB, Streamlit + React/Vite, Pandas, Vector DB
-```
-
----
 
 ## ✨ Features
 
@@ -163,14 +148,7 @@ git subtree push --prefix dist origin gh-pages
 
 Drag & drop `dist/` folder to [app.netlify.com/drop](https://app.netlify.com/drop)
 
-### Immediate Live Link (This Session)
 
-```
-https://3000-iwdhrcat4blxkvrvajjqo.e2b.app
-```
-This is the **currently running preview** — add it to your resume right now. For permanence, deploy via above.
-
----
 
 ## 📁 Project Structure
 
@@ -207,29 +185,14 @@ genaiproject/
 | `GROQ_API_KEY` | For Python | `app/.env` | Same Groq key for Streamlit backend |
 
 > **Demo works with NO keys** — mock extraction + local vector search ensures your live link never shows an error to recruiters.
-
----
-
-## 🎤 Interview Talking Points (Tredence)
-
-- **Why ChromaDB?** Lightweight, local persistent, no infra — vs Pinecone (managed, costly) / FAISS (in-memory only). Perfect for portfolio-size vectors.
-- **Prompt design:** Forced `Only return valid JSON (NO PREAMBLE)` cuts parsing errors; `JsonOutputParser` + try/catch for `OutputParserException: Context too big`.
-- **Retrieval evaluation:** Top-2 by cosine; if no overlap, fallback to top generic. Could add re-ranking with cross-encoder later.
-- **Latencies:** Groq is ~800 tokens/s — extraction + email ~1.2s; ChromaDB query <50ms for 20 docs.
-- **Next steps:** Add sentence-transformers embeddings, eval set for email quality, A/B prompt variants, feedback loop.
-
----
-
+> 
 ## 📄 License
 
 MIT — free to use for portfolios and learning. Original Cold Email Generator by Codebasics (MIT, commercial use requires permission).
 
 ---
 
-## 🙌 Credits
 
-- Original RAG idea: [Codebasics — Cold Email Generator](https://github.com/codebasics/project-genai-cold-email-generator)
-- Rebuilt & expanded as **TalentReach AI** for Data Science portfolio — React production frontend + live deploy + Tredence-ready docs
 
 ---
 
