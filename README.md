@@ -2,7 +2,7 @@
 
 An AI-powered customer support chatbot built with **React + Vite** and the **Anthropic Claude API**. Handles common support queries like order tracking, returns, shipping, and account issues — with quick-reply buttons and full conversation memory.
 
-![Chatbot Preview](https://harsh123hz.github.io/genaiproject/
+[Chatbot Preview]--->(https://harsh123hz.github.io/genaiproject/
 
 ---
 
