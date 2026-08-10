@@ -2,22 +2,19 @@
 
 > **GenAI Portfolio Project for Data Scientist Role — Live & Deployable**
 > 
-> **🔗 Live Demo:** `https://3000-iwdhrcat4blxkvrvajjqo.e2b.app` ← **Add this to your resume for Tredence!**
+> **🔗 Live Demo:** `https://harsh123hz.github.io/genaiproject/` 
 > 
-> **📌 GitHub Pages (Permanent):** `https://harsh123hz.github.io/genaiproject/` *(after enabling Pages)*
+> **📌 GitHub Pages (Permanent):** `https://harsh123hz.github.io/genaiproject/` 
 
 A production-grade **Retrieval-Augmented Generation (RAG)** system that scrapes any career page, extracts structured job data via **Groq Llama 3.1 70B**, retrieves the most relevant portfolio links via **ChromaDB vector search**, and generates hyper-personalized cold emails — all in **~1.2 seconds**.
 
 Built to showcase **Data Science + GenAI + System Design** skills for Tredence and similar Data Scientist interviews.
 
-![TalentReach AI Preview](https://via.placeholder.com/900x480/0f111e/6c5cff?text=TalentReach+AI+%E2%80%94+RAG+%7C+Groq+%7C+ChromaDB)
+![TalentReach AI Preview](https://harsh123hz.github.io/genaiproject/)
 
 ---
 
-## 🎯 Why This Project Stands Out for Tredence
 
-| What Tredence Looks For | How This Project Demonstrates It |
-|---|---|
 | **RAG Architecture** | End-to-end: Scrape → Clean → LLM Extract (JSON) → Vector Search → LLM Generate |
 | **Vector Databases** | ChromaDB persistent store with 20+ tech-stack embeddings + cosine similarity retrieval |
 | **LLM Orchestration** | LangChain `PromptTemplate | ChatGroq` chains, JsonOutputParser, fallback handling |
