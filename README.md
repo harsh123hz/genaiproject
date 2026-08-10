@@ -1,5 +1,6 @@
 # ⚡ TalentReach AI — RAG-Powered Cold Email Generator
-> **🔗 Live Demo:** `https://harsh123hz.github.io/genaiproject/` 
+> **🔗 Live Demo:** `https://harsh123hz.github.io/genaiproject/`
+> 
 > **📌 GitHub Pages (Permanent):** `https://harsh123hz.github.io/genaiproject/` 
 
 A production-grade **Retrieval-Augmented Generation (RAG)** system that scrapes any career page, extracts structured job data via **Groq Llama 3.1 70B**, retrieves the most relevant portfolio links via **ChromaDB vector search**, and generates hyper-personalized cold emails — all in **~1.2 seconds**.
