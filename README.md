@@ -13,7 +13,7 @@ A production-grade **Retrieval-Augmented Generation (RAG)** system that scrapes 
 | **RAG Architecture** | End-to-end: Scrape → Clean → LLM Extract (JSON) → Vector Search → LLM Generate |
 | **Vector Databases** | ChromaDB persistent store with 20+ tech-stack embeddings + cosine similarity retrieval |
 | **LLM Orchestration** | LangChain `PromptTemplate | ChatGroq` chains, JsonOutputParser, fallback handling |
-| **Prompt Engineering** | Forced JSON output, no-preamble constraints, persona injection (Mohan @ AtliQ) |
+| **Prompt Engineering** | Forced JSON output, no-preamble constraints |
 | **Production Deployment** | React/Vite static frontend (works without backend) + Streamlit Python backend alternative |
 | **Data Handling** | Pandas portfolio CSV, text cleaning (HTML strip, URL removal, whitespace norm) |
 
